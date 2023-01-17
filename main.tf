@@ -65,11 +65,11 @@ resource "aws_s3_bucket_object" "singleobject" {
 
   bucket = aws_s3_bucket.my-s3-bucket.id 
 
-  key    = "test.txt"
+  key    = "urls.txt"
 
-  source = "C:\\Users\\235503\\Documents\\test.txt"
+  source = "C:\\Users\\235503\\Downloads\\urls.txt"
   
-  etag = filemd5("C:\\Users\\235503\\Documents\\test.txt")
+  etag = filemd5("C:\\Users\\235503\\Downloads\\urls.txt")
 
  
 }
