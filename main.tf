@@ -67,9 +67,9 @@ resource "aws_s3_bucket_object" "singleobject" {
 
   key    = "test.txt"
 
-  source = "C:\\Users\\jayas\\OneDrive\\Documents\\test.txt"
+  source = "C:\\Users\\235503\\Desktop\\test.txt"
   
-  etag = filemd5("C:\\Users\\jayas\\OneDrive\\Documents\\test.txt")
+  etag = filemd5("C:\\Users\\235503\\Desktop\\test.txt")
 
  
 }
